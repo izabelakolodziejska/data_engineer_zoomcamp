@@ -1,0 +1,13 @@
+default_environment: default
+environments:
+  default:
+    connections:
+      google_cloud_platform:
+        - name: "gcp-default"
+          project_id: "consummate-sled-484916-m5"
+          location: "EU" # or "EU", or your region
+          # Authentication options (choose one):
+          service_account_file: "gcs.json"
+          # service_account_json: |
+          #   { "type": "service_account", ... }
+
